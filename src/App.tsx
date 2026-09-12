@@ -4,29 +4,31 @@ export default function App() {
   const [template, setTemplate] = useState('1');
   const [visitorCount, setVisitorCount] = useState(0);
   const [cv, setCv] = useState({
-    fullName: 'Musab Fadillah',
+    fullName: 'John Smith',
     jobTitle: 'Food & Beverage Professional',
-    email: 'musabfadillah001@gmail.com',
-    phone: '+62 882-1019-3414',
-    location: 'Bandung, Indonesia',
+    email: 'john.smith.fnb@email.com',
+    phone: '+62 812 3456 7890',
+    location: 'Jakarta, Indonesia',
     summary:
-      'A results-driven Food & Beverage professional with over 6 years of hands-on experience across leading hotel brands and retail outlets. Known for delivering exceptional guest experiences with a warm, energetic approach and a strong commitment to service excellence.',
+      'A results-driven Food & Beverage professional with over 6 years of hands-on experience across leading international establishments. Known for delivering exceptional guest experiences with a warm, energetic approach and a strong commitment to service excellence.',
     careerObjective:
       'Highly motivated hospitality expert seeking a dynamic leadership position in a premier establishment. Eager to leverage extensive operational experience, meticulous attention to detail, and a steadfast commitment to luxury service standards.',
     workAuthorization:
       'Legal resident in Indonesia with valid working rights and unrestricted mobility.',
     experience:
-      'The RR Chocolate Jakarta - Team Leader (Nov 2022 - Aug 2024)\n• Acted as role model and daily operational lead, setting the standard for the team.\n• Produced Daily, Weekly, and Monthly Store Reports for management review.\n\nThe Gaia Hotel Bandung - F&B Waiter (Nov 2021 - Nov 2022)\n• Part of the hotel Pre-Opening Team, preparing the restaurant for full seamless operations.\n• Delivered food and beverage service to guests with a focus on achieving maximum satisfaction.',
-    education: 'Universitas Terbuka\nTourism Program',
+      'The Ritz-Carlton New York - Assistant Restaurant Manager (Jan 2023 - Present)\n• Managed high-volume daily floor operations and elevated luxury guest satisfaction scores by 18%.\n• Trained and mentored a multi-cultural team of 25+ hospitality professionals.\n\nJW Marriott Los Angeles - F&B Supervisor (Mar 2021 - Dec 2022)\n• Spearheaded VIP banquet setups and coordinated seamless service delivery for high-profile corporate events.\n\nNobu Hotel Miami Beach - Senior Server & Captain (Jun 2019 - Feb 2021)\n• Delivered meticulous upscale omakase service and curated extensive wine pairings for international clientele.\n\nFairmont San Francisco - Food & Beverage Trainee (Jan 2018 - May 2019)\n• Assisted in pre-opening setup, inventory control, and standard operating procedure execution across outlets.',
+    education:
+      'Universiti Teknologi Malaysia (UTM)\nBachelor of Tourism Management',
     skills:
       'F&B Operations Leadership, Restaurant & Bar Service, Banquet & Event Setup, Complaint Handling, Staff Training & Mentoring, SOP Implementation',
-    languages: 'Bahasa Indonesia - Native\nEnglish - Intermediate',
+    languages:
+      'Indonesian - Native\nEnglish - Advanced\nJapanese - Intermediate\nItalian - Conversational',
     interests:
       'Finance & Business, Hospitality & Service, Health & Wellness, Psychology, Technology',
     personalInfo:
-      'DOB: 03 Oct. 1997, Bandung\nH/W: 170 cm / 54 kg\nExp: 6+ Years in F&B',
+      'DOB: 03 Oct. 1999, Jakarta\nH/W: 175 cm / 68 kg\nExp: 6+ Years in F&B',
     achievements:
-      'GM Award - Ibis Bandung Trans Studio (Sep 2019): Recognized by General Manager as one of 5 outstanding talents for accumulating 20+ positive guest comments within a single month.',
+      'Excellence in Leadership Award - Ritz-Carlton (2024): Recognized for maintaining the lowest turnover rate and highest guest appreciation ratings across regional operations.',
     statement:
       'I certify that all information provided is accurate and true, I look forward to the opportunity to discuss my application at your earliest convenience.',
     photo:
